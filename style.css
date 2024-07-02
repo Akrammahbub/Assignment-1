@@ -1,0 +1,111 @@
+body {
+  background-image: url(bd-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  height: 75vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-style: normal;
+}
+
+.card {
+  background-color: #ffffff38;
+  width: 450px;
+  height: 500px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 100px 20px;
+}
+
+.card_img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.title{
+  font-size: 32px;
+  color: #1F3439;
+
+}
+.occupation{
+  font-size: 22px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.short_description{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  padding: 0 25px;
+}
+
+.contact_detalis .option{
+  background-color: #698070;
+  display: inline-flex;
+  font-size: 26px;
+  padding: 10px 18px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #1F3439;
+  transition: all ease-in-out 0.3s;
+}
+.contact_detalis .option:hover{
+  background-color: #3D5852;
+  cursor: pointer;
+  color: #83948B;
+  transition: all ease-in-out 0.3s;
+}
+
+
+
+@media (min-width:2000px) and (max-width: 2562px){
+  .card { margin: 250px auto; padding: 100px 20px;
+}
+}
+
+@media (min-width:1280px) and (max-width: 1760px){
+  body {height: 88vh;}
+  .card {width: 370px;margin: 150px auto;padding: 45px 20px;}
+  .card_img img {width: 160px;height: 160px;}
+}
+
+@media (min-width:961px) and (max-width: 1160px){
+  body {height: 82vh;}
+  .card {width: 375px;margin: 150px auto;padding: 45px 20px;}
+  .card_img img {width: 160px;height: 160px;}
+}
+
+
+@media (min-width:768px) and (max-width: 960px){
+  body {height: 75vh;}
+  .card {width: 352px;height: 400px;padding: 30px 0px;margin: 205px auto;}
+  .card_img img {width: 130px;height: 130px;}
+  .title {font-size: 22px;}
+  .occupation {font-size: 16px;}
+  .short_description {font-size: 14px;padding: 0px 20px;}
+}
+
+
+@media (min-width:320px) and (max-width: 767px){
+  body {height: 80vh;}
+  .card {width: 320px;height: 400px;margin: 162px auto;padding: 60px 15px;}
+  .card_img img {width: 130px;height: 130px;}
+  .title {font-size: 22px;}
+  .occupation {font-size: 16px;}
+  .short_description {font-size: 14px;padding: 0 15px;}
+  .contact_detalis .option {font-size: 20px;padding: 5px 14px;}
+}
